@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping("/profile")
-    public UserProfile getUser() {
+    public UserProfile getUserProfile() {
 
         UserProfile userProfile = new UserProfile();
 
