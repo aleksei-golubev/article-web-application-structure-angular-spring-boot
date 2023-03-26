@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Static generated resources ###
+backend/src/main/resources/static/
