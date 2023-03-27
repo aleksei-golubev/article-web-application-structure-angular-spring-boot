@@ -6,9 +6,6 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <excludes>
-                <exclude>archive-tmp/</exclude>
-            </excludes>
             <directory>./dist/frontend</directory>
             <outputDirectory>./</outputDirectory>
         </fileSet>
