@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  backend:
+    image: backend
+    build: ./backend
+    ports:
+      - "8080:8080"
+  frontend:
+    image: frontend
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
