@@ -1,6 +1,7 @@
 # Web application structure: Angular + Spring Boot
 
-Here you can find three variations of combinations of frontend and backend modules on example of simple web application.
+This is a repository with examples from article: https://medium.com/@aleksei_golubev/web-application-structure-angular-spring-boot-feddf9bf253e
+Here you can find three variations of frontend and backend modules combination by example of simple web application.
 
 Environment:
 - Java 17.0.6
